@@ -53,6 +53,6 @@ while True:
 	# Drawing
 	screen.fill((0,0,0))
 	moving_sprites.draw(screen)
-	moving_sprites.update(0.25)
+	moving_sprites.update(0.15)
 	pygame.display.flip()
 	clock.tick(60)
